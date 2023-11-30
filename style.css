@@ -1,0 +1,42 @@
+body {
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: black;
+}  
+
+#text_location{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#text_location_country {
+    background-color: rgba(0, 51, 255, 0.638);
+    color: white;
+    border-radius: 4px;
+    padding: 1px 3px;
+    font-weight: bold;
+}
+
+.temp{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.temp_feels_like{
+    font-weight: 500;
+    font-size: .9rem;
+    margin-top: 3px;
+}
+
+#text_desc{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
