@@ -13,6 +13,7 @@
         "128" : "./images/icon_128.png"
     },
     "permissions" : [
-        "activeTab"
+        "activeTab",
+        "geolocation"
     ]
 }
